@@ -54,7 +54,7 @@ public class FractalExplorer
                 if (iter == -1)image.drawPixel(i,j,0);
                 else {
                     float hue = 0.7f + (float)iter / 200f;
-                    image.drawPixel(i,j,Color.HSBtoRGB(hue,1f,1f));
+                    image.drawPixel(i,j,Color.HSBtoRGB(hue,1f,1f)); //заменить??
                 }
             }
         }
@@ -62,7 +62,7 @@ public class FractalExplorer
     }
     public static void main(String[] args) 
     {
-    	FractalExplorer fractalexp=new FractalExplorer(1000);
+    	FractalExplorer fractalexp=new FractalExplorer(800);
     	fractalexp.createAndShowGUI();
     	fractalexp.drawFractal();
 
