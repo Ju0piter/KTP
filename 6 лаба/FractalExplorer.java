@@ -187,7 +187,7 @@ public class FractalExplorer
     
     public static void main(String[] args) 
     {
-    	FractalExplorer fractalexp=new FractalExplorer(800);
+    	FractalExplorer fractalexp=new FractalExplorer(950);
     	fractalexp.createAndShowGUI();
     	fractalexp.drawFractal();
     }

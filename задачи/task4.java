@@ -10,12 +10,12 @@ public class task4
 {
 	public static void main(String[] args) 
 	{
-		out.println(sevenBoom(1, 2, 3, 4, 5, 6, 67));
-		/*out.println(cons(new int[] {1, 2, 3, 4, 5, 6, 7}));
+		/*out.println(sevenBoom(1, 2, 3, 4, 5, 6, 67));
+		out.println(cons(new int[] {1, 2, 3, 4, 5, 6, 7}));
 		out.println(unmix("hTsii  s aimex dpus rtni.g"));
-		out.println(noYelling("What went wrong?????????"));
-		out.println(xPronounce("unboxinx"));
-		out.println(largestGap(new int[] {9, 4, 26, 26, 0, 0, 5, 20, 6, 25, 5}));
+		out.println(noYelling("What went wrong?????????")); */
+		out.println(xPronounce("xnboxinx  x  "));
+		/*out.println(largestGap(new int[] {9, 4, 26, 26, 0, 0, 5, 20, 6, 25, 5}));
 		out.println(reversecod(149));
 		out.println(commonLastVowel("String str"));
 		out.println(commonLastVowel("aaaaeeew"));
@@ -27,7 +27,8 @@ public class task4
 	массиве появляется цифра 7. В противном случае верните "в массиве нет 7".* */
 	public static String sevenBoom(int... a)
 	{
-		/*String str="";
+		double f=0;
+		String str="";
 		for (int i : a) 
 		{
 			str=str+i;
@@ -36,13 +37,12 @@ public class task4
 		{
 			if(str.charAt(i)=='7')
 				return "Boom!";
-		}*/
-		return (Arrays.stream(a)
-			.mapToObj(x->String.valueOf(x))
-			.filter(b->b.indexOf('7')>-1)
-			.count())>0 ? "Boom!": "there is no 7 in the array";
+			
+				
+		}
+		return "B maccuBe HeT 7";
 	}
-	/* ***********************************"there is no 7 in the array"****************************.filter(z->(z-'0')==7).******** */
+
 
 	/* *2. Создайте функцию, которая определяет, могут ли элементы в массиве быть
 	переупорядочены, чтобы сформировать последовательный список чисел, где
